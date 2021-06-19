@@ -49,3 +49,12 @@
     flex-direction: column;
   }
 }
+
+.goback_btn {
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 5px 10px;
+  background: #0070f3;
+  cursor: pointer;
+  color: #fff;
+}
