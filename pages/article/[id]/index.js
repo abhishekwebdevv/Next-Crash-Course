@@ -1,10 +1,12 @@
 import { server } from '../../../config/index';
 import Link from 'next/link';
 import articleStyles from '../../../styles/Article.module.css';
+import Meta from '../../../components/Meta';
 
 function article({ article }) {
   return (
     <>
+      <Meta title={article.title} description={article.excerpt} />
       <h3>{article.title}</h3>
       <p>{article.body}</p>
       <Link href="/">
